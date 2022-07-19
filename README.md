@@ -12,3 +12,5 @@ Added to the class as a whole. Receive arguments such as target, or specific con
 ## Adding multiple decorators
 
 Execute bottom up!
+
+### Property Decorators
