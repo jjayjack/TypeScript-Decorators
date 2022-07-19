@@ -120,6 +120,11 @@ const btn = document.querySelector("button")!;
 btn.addEventListener("click", p.showMessage);
 
 // Validation with Decorators
+interface ValidatorConfig {
+  [property: string]: {
+    [validatableProp: string]: string[]; //[required, positive]
+  };
+}
 function Required() {}
 function PositiveNumber() {}
 function validate(obj: object) {}
