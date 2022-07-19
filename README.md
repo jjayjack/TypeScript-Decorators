@@ -11,7 +11,7 @@ Added to the class as a whole. Receive arguments such as target, or specific con
 
 ## Adding multiple decorators
 
-Execute bottom up!
+Execute bottom up! All decorators run when class is defined without instantiating class.
 
 ### Property Decorators
 
