@@ -14,3 +14,11 @@ Added to the class as a whole. Receive arguments such as target, or specific con
 Execute bottom up!
 
 ### Property Decorators
+
+### Method Decorator
+
+Accepts three arguments & used before method
+
+### Parameter Decorator
+
+(target, name of method in which parameter is used, position of this argument within method)
