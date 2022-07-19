@@ -1,8 +1,15 @@
-function Logger(constructor: Function) {
+/*function Logger(constructor: Function) {
   console.log("logging");
   console.log(constructor);
+}*/
+// Convert Decorator into Decorator Factory
+function Logger(logString: string) {
+  return function (constructor: Function) {
+    console.log(logString);
+    console.log(constructor);
+  };
 }
-@Logger
+@Logger("Logging - Default")
 class Person {
   name = "Max";
   constructor() {
