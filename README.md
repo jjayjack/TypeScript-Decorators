@@ -8,3 +8,7 @@ Function that is applied to something in a certain way
 ## Class Decorators
 
 Added to the class as a whole. Receive arguments such as target, or specific constructor. _Execute when class is defined not when instantiated._
+
+## Adding multiple decorators
+
+Execute bottom up!
